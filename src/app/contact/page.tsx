@@ -72,7 +72,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* LEFT: Contact Details */}
-            <div>
+            <div className="order-2 lg:order-1">
               <h3 className="mb-8">Visit Our Clinic</h3>
 
               <div className="space-y-6">
@@ -221,7 +221,7 @@ export default function ContactPage() {
             </div>
 
             {/* RIGHT: Zoho Form */}
-            <div>
+            <div className="order-1 lg:order-2">
               <h3 className="mb-4">Contact ArtSmiles Dentistry Today!</h3>
               <p className="text-grey-muted mb-8">Count on us! We are happy to help!</p>
               <div className="rounded-xl overflow-hidden bg-grey-cool">
