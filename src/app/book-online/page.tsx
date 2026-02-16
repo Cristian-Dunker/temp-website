@@ -63,8 +63,8 @@ export default function BookOnlinePage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-bold mb-2">Email</h3>
-                <a href="mailto:contato@artsmiles.com.au" className="text-gold-dark hover:text-gold-darker font-medium text-sm">
-                  contato@artsmiles.com.au
+                <a href="mailto:contact@artsmiles.com.au" className="text-gold-dark hover:text-gold-darker font-medium text-sm">
+                  contact@artsmiles.com.au
                 </a>
               </div>
 
