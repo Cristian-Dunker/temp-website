@@ -576,12 +576,14 @@ export default function Home() {
             discounted price, up to 30% off.
           </p>
           <div className="mt-6">
-            <Link
-              href="/about-us"
+            <a
+              href="https://app.smilepass.co/pages/authentication/register-invite?token=f8068fea-0f46-4717-a3e2-d8b1869b7746"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-transparent border-2 border-white text-white hover:bg-gold-dark hover:border-gold-dark rounded-full px-10 py-4 text-lg tracking-wide transition inline-block"
             >
               JOIN ARTSMILES CLUB NOW
-            </Link>
+            </a>
           </div>
         </div>
       </section>
