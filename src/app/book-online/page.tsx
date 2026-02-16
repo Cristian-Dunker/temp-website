@@ -63,8 +63,8 @@ export default function BookOnlinePage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-bold mb-2">Email</h3>
-                <a href="mailto:info@artsmiles.com.au" className="text-gold-dark hover:text-gold-darker font-medium text-sm">
-                  info@artsmiles.com.au
+                <a href="mailto:contato@artsmiles.com.au" className="text-gold-dark hover:text-gold-darker font-medium text-sm">
+                  contato@artsmiles.com.au
                 </a>
               </div>
 
@@ -76,8 +76,7 @@ export default function BookOnlinePage() {
                 </div>
                 <h3 className="text-lg font-bold mb-2">Hours</h3>
                 <p className="text-grey-muted text-sm">
-                  Mon-Fri: 8:30 AM - 5:00 PM<br />
-                  Sat-Sun: Closed
+                  Mon-Fri: 8:00 am – 5:00 pm
                 </p>
               </div>
             </div>
