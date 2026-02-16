@@ -1,26 +1,103 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Swiss 721 Thin";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/swiss-721-thin.ttf") format("truetype");
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-gold: #B6A178;
+  --color-gold-light: #e0c387;
+  --color-gold-dark: #A48444;
+  --color-gold-darker: #8D7425;
+  --color-gold-muted: #D5C4A2;
+  --color-brown-warm: #906555;
+  --color-dark: #272727;
+  --color-dark-deep: #27231E;
+  --color-grey-warm: #F0EEED;
+  --color-grey-cool: #F3F5F8;
+  --color-grey-mid: #BFC9D1;
+  --color-grey-muted: #909090;
+  --color-teal: #264653;
+  --color-navy: #2B323D;
+
+  --font-heading: "Swiss 721 Thin", "Inter", sans-serif;
+  --font-body: "Roboto", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    font-family: var(--font-body);
+    font-weight: 300;
+    color: var(--color-dark);
+    background: #ffffff;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.2;
+    color: #252525;
+  }
+
+  h1 {
+    font-size: clamp(2.2rem, 2rem + 1.5vw, 3.3rem);
+    text-transform: capitalize;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
+    text-transform: capitalize;
+  }
+
+  h3 {
+    font-size: clamp(1.4rem, 1.2rem + 0.5vw, 1.8rem);
+  }
+
+  h4 {
+    font-family: var(--font-body);
+    font-weight: 300;
+    font-size: 1.5em;
+    text-transform: capitalize;
+  }
+
+  h5 {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: capitalize;
+  }
+
+  h6 {
+    font-family: var(--font-body);
+    font-weight: 300;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-grey-muted);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ::selection {
+    background-color: var(--color-gold);
+    color: white;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
