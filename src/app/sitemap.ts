@@ -40,5 +40,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...routes, ...services];
+  // Landing pages (not in main navigation)
+  const landingPages = [
+    "/dental-veneers-consult",
+    "/all-on-4-consult",
+    "/appointment-booked",
+  ].map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...routes, ...services, ...landingPages];
 }

@@ -224,7 +224,7 @@ export default function ContactPage() {
             <div className="order-1 lg:order-2">
               <h3 className="mb-4">Contact ArtSmiles Dentistry Today!</h3>
               <p className="text-grey-muted mb-8">Count on us! We are happy to help!</p>
-              <div className="rounded-xl overflow-hidden bg-grey-cool">
+              <div className="rounded-xl overflow-hidden">
                 <iframe
                   src="https://forms.zohopublic.com.au/artsmiles/form/FormsWebsite/formperma/cRiwUiaTCM3KVJHg9cdwg_1oQAGSjTSRbkW4e2n07Sw"
                   className="w-full min-h-[600px] border-0 rounded-xl"

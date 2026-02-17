@@ -498,7 +498,7 @@ export default function DentalVeneersPage() {
             </p>
           </div>
           <div className="mx-auto max-w-3xl">
-            <div className="rounded-2xl overflow-hidden bg-grey-warm p-6">
+            <div className="rounded-2xl overflow-hidden">
               <iframe
                 src="https://forms.zohopublic.com.au/artsmiles/form/VeneerEnquiryForm/formperma/Uw_62if5C9MmUM1DYB-ny-N0SYf47XM4j0aB7bkWaa0"
                 width="100%"
