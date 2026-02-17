@@ -121,7 +121,7 @@ export default function DentalVeneersPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="relative overflow-hidden rounded-2xl">
               <Image
-                src="/images/services/veneers-cover.jpg"
+                src="/images/services/cosmetic-dentistry.png"
                 alt="Dental veneers"
                 width={700}
                 height={500}
@@ -831,13 +831,13 @@ export default function DentalVeneersPage() {
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/book-online"
-              className="inline-block rounded-full bg-gold-dark px-8 py-4 text-sm font-medium text-white transition hover:bg-brown-warm"
+              className="inline-block rounded-full bg-white text-gold-dark px-8 py-4 text-sm font-medium transition hover:bg-grey-warm"
             >
               Book Free Consultation
             </Link>
             <a
               href="tel:0755883677"
-              className="inline-block rounded-full border border-white/20 px-8 py-4 text-sm font-medium text-white transition hover:border-gold-dark hover:bg-gold-dark"
+              className="inline-block rounded-full border-2 border-white px-8 py-4 text-sm font-medium text-white transition hover:bg-white hover:text-gold-dark"
             >
               Call (07) 5588 3677
             </a>
